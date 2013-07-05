@@ -2,8 +2,6 @@
 
 Basic blog app demo for Developer Fight Club.
 
-Things you may want to cover:
-
 * Clone repo.
 
 * Use <tt>ruby 2.0.0</tt>.
