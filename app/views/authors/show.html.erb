@@ -1,0 +1,13 @@
+<h1>Author</h1>
+
+
+<h2><%=@author.email%></h2>
+
+<h2>Posts</h2>
+<ul>
+	<%for post in @author.posts%>
+		<li>
+			<%=link_to post.title, post_path(post)%>
+		</li>
+	<% end -%>
+</ul>
